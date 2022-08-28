@@ -245,6 +245,7 @@ function Cart(props) {
   }
 
   const handleOrder = () =>{
+    
     toggleOrder()
   }
   return (
