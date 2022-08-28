@@ -90,19 +90,8 @@ address {
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px !important;
 }
 
-.shark{
-  background: url('./manta_ray.gif') no-repeat !important;
-  height: 560px;
-  width: 600px;
-  box-shadow: 35px 35px 0px 2px #2e3085;
-  position: relative; 
-}
-.whale{
-  background: url('./whale_shark.gif') no-repeat !important; 
-  box-shadow: -35px 35px 0px 2px #2e3085;  
-  object-fit: cover !important;  
-  height: 480px;
-} 
+
+
 .artwork{
   margin: 10px 0px;
   box-shadow: rgba(32, 31, 31, 0.568) -8px 8px, rgba(37, 37, 37, 0.3) -13px 13px, rgba(66, 66, 66, 0.2) -18px 18px, rgba(49, 49, 49, 0.1) -23px 23px, rgba(240, 46, 170, 0.05) -28px 28px;

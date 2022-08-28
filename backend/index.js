@@ -16,9 +16,13 @@ const UserModel = require('./models/User');
 app.use(cors());
 app.use('/uploads',express.static('uploads')); //uploads image
 mongoose.connect(
-    "mongodb://localhost:27017/e-commerce?readPreference=primary&appname=MongoDB%20Compass&ssl=false",
+    "mongodb+srv://vinothkumar:VinothKumar@cluster0.lt6o879.mongodb.net/cd-shoppe?retryWrites=true&w=majority",
     { useNewUrlParser: true }
-);
+).then(()=>{
+    console.log('connected successfully')
+}).catch((err)=>{
+    console.log('no connection')
+})
 
 app.use(bodyParser.json())
 app.use(

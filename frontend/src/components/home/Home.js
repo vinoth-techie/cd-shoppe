@@ -1,6 +1,6 @@
 //default imports
-import React,{useState,useEffect} from 'react' 
-import {Card,CardImg,CardBody,CardImgOverlay,Jumbotron,Container, Button} from 'reactstrap';
+import React,{useState} from 'react' 
+import {Card,CardImg,Jumbotron,Container} from 'reactstrap';
 import {Link, useHistory} from 'react-router-dom';  
 import Fab from '@material-ui/core/Fab'; 
 // import { Scrollbars } from 'react-custom-scrollbars';
@@ -12,8 +12,6 @@ import "./style.css";
 import NavBar from '../navbar/Navbar';
 import {ShippingNav } from '../products/productnav/ProductNav';
 import ExpandLessIcon from '@material-ui/icons/ExpandLess';
-import NewProduct from '../products/newProducts/NewProduct';  
-import Shark from './Shark';
 
 
 // const RenderFeaturedProducts = ({feature}) =>{
@@ -84,13 +82,13 @@ export default function Home(props) {
                 <div className='col-sm-4' style={{color:'black',marginTop:'100px'}}>
                     <Fade right>
                     <h1 style={{fontSize:'50px'}}>Online<br/> Shopping</h1>
-                    <div style={{width:'150px',borderBottom:"8px solid #7821cf",marginTop:'15px'}}></div>
+                    <div style={{width:'150px',borderBottom:"8px solid #2156FA",marginTop:'15px'}}></div>
                     <div style={{marginTop:'20px'}}>
-                        Lorem ipsum
+                    Electronic commerce, known as ecommerce, is the buying and selling of goods or services electronically on the internet. It can also refer to other online activities, such as auctions, ticketing and banking.
                     </div>
                     <div>
                         <a href="#goToNewProducts">
-                            <button style={{borderRadius:'10px',backgroundColor:'#7821cf',padding:'10px 20px',outline:'none',border:'none'}} className='text-white'>Get Started</button>
+                            <button style={{borderRadius:'10px',backgroundColor:'#2156FA',padding:'10px 30px',outline:'none',border:'none'}} className='text-white'>Get Started</button>
                         </a>
                     </div>
                     </Fade>

@@ -92,7 +92,7 @@ function NavBar(props) {
         dark
         expand="md"
         className="fixed-top"
-        style={{ backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8))'}}
+        style={{ backgroundImage:'linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8))'}}
       >
         <div className="container">
           <NavbarBrand className="mr-auto" href="/home">

@@ -19,5 +19,27 @@ export const CATEGORIES = [
         img:'assets/brands/brand4.png',
         url:'/products'
     },
+    {
+        id:4,
+        img:'assets/brands/brand8.png',
+        url:'/products'
+    },
+    {
+        id:5,
+        img:'assets/brands/NIKE.png',
+        url:'/products'
+    },
+    {
+        id:6,
+        img:'assets/brands/lg.png',
+        url:'/products'
+    },
+    
+    {
+        id:7,
+        img:'assets/brands/hp.png',
+        url:'/products'
+    },
+
 
 ]

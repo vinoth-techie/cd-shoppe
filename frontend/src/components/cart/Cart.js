@@ -84,9 +84,7 @@ function Cart(props) {
 
 
   const sumOfProducts =
-    checkData &&
-    checkData
-      .filter((data) => data.select && data)
+    checkData?.filter((data) => data.select && data)
       .reduce((a, v) => (a = a + v.count * v.price), 0);
 
 
