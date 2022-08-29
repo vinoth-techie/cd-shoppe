@@ -8,3 +8,14 @@ e-commerce application
 <br>
 <br>
 <b>●</b> Built this website using <b>MERN Stack</b> 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<b>P.S<b/> Screenshots and hosting updates on process
