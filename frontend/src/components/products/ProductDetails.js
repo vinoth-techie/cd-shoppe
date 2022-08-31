@@ -196,7 +196,7 @@ function ProductDetails(props) {
     <>
       <NavBar
       />
-      this is a sample page
+      
       <div className="container" style={{ marginTop: "100px" }}>
         <div className="row">
           <div className="col-12">
